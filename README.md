@@ -76,7 +76,7 @@ Continue with the next steps below.
 
 1. Clone the Repository:
 ```bash
-git clone https://github.com/flexcomng/erpnext_quick_install.git
+git clone https://github.com/online906/erpnext_quick_install.git
 ```
 2. Navigate to the folder:
 ```bash
