@@ -91,6 +91,11 @@ chmod +x erpnext_install.sh
 source erpnext_install.sh
 ```
 
+
+***FIXES DONE FOR Ubuntu 24.04***
+
+
+
 ## 🖥️ Compatibility
 
 **Supported Operating Systems:**
