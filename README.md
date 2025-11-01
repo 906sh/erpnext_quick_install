@@ -93,8 +93,23 @@ source erpnext_install.sh
 
 
 ***FIXES DONE FOR Ubuntu 24.04***
+```
+cd ~/frappe-bench
 
+# See if the three Redis configs exist
+ls -1 config/redis-*.conf
 
+# See what’s actually listening on the expected ports
+sudo ss -ltnp | grep -E '(:11000|:12000|:13000)' || echo "no redis on 11000/12000/13000"
+
+# Doctor
+bench doctor
+If those config/redis-*.conf files don’t exist, (re)generate them:
+
+bash
+Copy code
+bench setup redis
+```
 
 ## 🖥️ Compatibility
 
